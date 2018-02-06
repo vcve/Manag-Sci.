@@ -32,17 +32,17 @@
 | --------- | ---- |
 | ![](https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/pastedGraphic.png)|  1. 选取SPSS数据数据<br>2. 作业区内依据变项数目划出圆形<br>3. 依据变项在SPSS内包含的项目划出分支<br>将变量名称输入圆形内 <br>4. 将变量包含之项目拖曳至方框内<br>5. Plugins → Name Unobserved Variables将小圆形赋予名称<br>6. 将各变量（大圆形）两两相连<br>7. Save the current path diagram<br>8. Calculate estimates<br>9. Analysis properties |
 
-![](https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/15179034426759.jpg)
 
-![](https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/15179040228929.jpg)
+<img src="https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/15179034426759.jpg" width="500">
+
+<img src="https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/15179040228929.jpg" width="500">
 
 备注：
 Model 1（SE+IM-SEXP-NCRE）：删除两两相连之线条，仅保留SE和IM之相联；
 单向箭头由SE指向SEXP、由IM指向SEXP、由SEXP指向NCRE
 选择 ，凡是![](https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/15179032852673.jpg)「被单向箭头指入」的大圆，皆加入一个圆，并赋予新加入之圆 Object properties；
 
-![](https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202018-02-06%2016.33.01.png)
-
+<img src="https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202018-02-06%2016.33.01.png" width="400">
 
 
 ### 2. 记录数据

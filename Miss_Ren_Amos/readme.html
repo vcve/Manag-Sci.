@@ -1,0 +1,161 @@
+<h1 id="toc_0">任姐Amos处理法</h1>
+
+<h2 id="toc_1">一、项目打包Item Parceling</h2>
+
+<p><em>这部分在SPSS软件完成</em></p>
+
+<h3 id="toc_2">1. Dimension(维度/尺度)</h3>
+
+<ol>
+<li>有Dimension：如12items有4个dimensions，则每个dimension包含3个items</li>
+<li>无Dimension：依据数据大小顺序排列，最小与最大相、次小与次大相加……计算出各项的平均值（若为奇数items，排除最中间项）
+###2. 分析(A) → 维度缩减(D) → 因素(F)
+
+<ol>
+<li>将需要缩减维度的变量全选入「变量(V)」内</li>
+<li>选项(O)功能下勾选「依据因素负荷排序(S)」</li>
+<li>根据输出资料的「Communalities」排序</li>
+<li>变项若为奇数，将中间项删除，变项若为偶数，直接分组，以3~4组为原则（本题共有13个变项，删除第7个）</li>
+<li>定义新变项（NCRE1, NCRE2, NCRE3）</li>
+</ol></li>
+</ol>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center"></th>
+<th style="text-align: center">第一次选</th>
+<th style="text-align: center">第二次选</th>
+<th style="text-align: center">结果</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="text-align: center">分组1 (NCRE1)</td>
+<td style="text-align: center">1+2</td>
+<td style="text-align: center">13+12</td>
+<td style="text-align: center">1+2+12+13</td>
+</tr>
+<tr>
+<td style="text-align: center">分组2 (NCRE2)</td>
+<td style="text-align: center">3+4</td>
+<td style="text-align: center">11+10</td>
+<td style="text-align: center">3+4+10+11</td>
+</tr>
+<tr>
+<td style="text-align: center">分组3 (NCRE3)</td>
+<td style="text-align: center">5+6</td>
+<td style="text-align: center">9+8</td>
+<td style="text-align: center">5+6+8+9</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_3">3. 转换(T) → 计算变量(C)：</h3>
+
+<pre><code>  1. 目标变量(T)填入新的变项名称（NCRE1）
+  2. 数值表示式(E)填入维度缩减之选取结果之「平均值」
+  3. 分别将新的变项计算出来
+</code></pre>
+
+<h3 id="toc_4">4. 另存新檔</h3>
+
+<h2 id="toc_5">二、Amos绘图与模型判别</h2>
+
+<p><em>接下来进入AMOS软件</em></p>
+
+<h3 id="toc_6">1. 绘图</h3>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>步骤</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><img src="media/15178992944413/pastedGraphic.png" alt=""/>￼</td>
+<td>1. 选取SPSS数据数据<br>2. 作业区内依据变项数目划出圆形<br>3. 依据变项在SPSS内包含的项目划出分支<br>将变量名称输入圆形内 <br>4. 将变量包含之项目拖曳至方框内<br>5. Plugins → Name Unobserved Variables将小圆形赋予名称<br>6. 将各变量（大圆形）两两相连<br>7. Save the current path diagram<br>8. Calculate estimates<br>9. Analysis properties</td>
+</tr>
+</tbody>
+</table>
+
+<p><img src="media/15178992944413/15179034426759.jpg" alt=""/>￼<br/>
+<img src="media/15178992944413/15179040228929.jpg" alt=""/>￼</p>
+
+<p>备注：<br/>
+Model 1（SE+IM-SEXP-NCRE）：删除两两相连之线条，仅保留SE和IM之相联；<br/>
+单向箭头由SE指向SEXP、由IM指向SEXP、由SEXP指向NCRE<br/>
+选择 ，凡是<img src="media/15178992944413/15179032852673.jpg" alt=""/>￼「被单向箭头指入」的大圆，皆加入一个圆，并赋予新加入之圆 Object properties；<br/>
+<img src="media/15178992944413/15179033130788.jpg" alt=""/>￼</p>
+
+<h3 id="toc_7">2. 记录数据</h3>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>\(∆X^2\)</th>
+<th>df</th>
+<th>\(∆R^2\)</th>
+<th>RMSEA</th>
+<th>CFI</th>
+<th>TLI</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Baseline (变项独立)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Model1 (合并变项)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Model2 (合并变项)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>………</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_8">3. 模型判别原则</h3>
+
+<p>依据三原则找出最佳Model<br/>
+绝对原则：CFI, TLI &gt; 0.90且越大越好；RMSEA &lt; 0.08且越小越好<br/>
+相对原则：\(∆R^2\)显著与否，显著表示有区别，越显著越好（先看DF，差一个DF的话，\(∆R^2\)只要3.8就算显著）<br/>
+就简原则：完全中介最佳，关联线越少越好<br/>
+<img src="media/15178992944413/15179035472877.jpg" alt=""/>￼<br/>
+<em>图中，模型三中，1个df代表了5.455的\(∆X^2\),根据相对标准，模型三最好</em></p>
+
+<h2 id="toc_9">补充：构念题目数</h2>
+
+<p><img src="media/15178992944413/15179000053747.jpg" alt=""/>￼</p>

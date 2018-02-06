@@ -33,9 +33,9 @@
 | ![](https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/pastedGraphic.png)|  1. 选取SPSS数据数据<br>2. 作业区内依据变项数目划出圆形<br>3. 依据变项在SPSS内包含的项目划出分支<br>将变量名称输入圆形内 <br>4. 将变量包含之项目拖曳至方框内<br>5. Plugins → Name Unobserved Variables将小圆形赋予名称<br>6. 将各变量（大圆形）两两相连<br>7. Save the current path diagram<br>8. Calculate estimates<br>9. Analysis properties |
 
 
-<img src="https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/15179034426759.jpg" width="500">
+<img src="https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/IMG_8348.jpg" width="600">
 
-<img src="https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/15179040228929.jpg" width="500">
+<img src="https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/IMG_8349.jpg" width="600">
 
 备注：
 Model 1（SE+IM-SEXP-NCRE）：删除两两相连之线条，仅保留SE和IM之相联；
@@ -60,7 +60,8 @@ Model 1（SE+IM-SEXP-NCRE）：删除两两相连之线条，仅保留SE和IM之
 * 相对原则：∆R<sup>2</sup>显著与否，显著表示有区别，越显著越好（先看df，差一个df的话，∆R<sup>2</sup>只要3.8就算显著）
 * 就简原则：完全中介最佳，关联线越少越好
 
-![](https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/15179035472877.jpg)<br>
+<img src="https://github.com/vcve/Manag-Sci./raw/master/Miss_Ren_Amos/IMG_8348%202.jpg" width="500">
+<br>
 *图中，模型三中，1个df代表了5.455的$∆X^2$,根据相对标准，模型三最好*
 
 ## 补充：构念题目数
